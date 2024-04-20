@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shopping Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container sticky-top bg-white">
+        <nav class="navbar navbar-light bg-transparent px-4 fw-bold">
+            <a class="navbar-brand" href="#"><i class="bi bi-bag-fill"></i> Shopping Card</a>
+            <div class="count-container">
+                <button class="btn btn-dark addCardBtn px-5 py-3"><i class="bi bi-cart"></i> Add Card</button>
+                <p class="count">0</p>
+            </div>
+        </nav>
+    </div>
+    <div class="container bg-primary text-center p-5 rounded">
+        <h3 class="text-white py-2"><i class="bi bi-bag-fill"></i> Welcome my shopping Kart</h3>
+        <p class="text-white fw-semibold"> A world of limitless possibilities awaits you</p>
+
+    </div>
+
+    <div class="container bg-light my-1">
+        <div class="row" id="product">
+            <!-- <div class="col-md-3 my-3">
+                <div class="card text-center p-3">
+                    <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/x/-original-imagt4qptrkzwmxa.jpeg?q=70"
+                        class="card-img-top w-50 mx-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">Realme</h5>
+                        <h6 class="card-title">Rrea</h6>
+                        <p>MEMORY:64GB</p>
+                        <p> MRP:<strike> ₹123456</strike><span> Rs:₹39002</span></p>
+                        <button class="btn btn-success"><i class="bi bi-star"></i> 4.8</button>
+                        <button class="btn btn-outline-primary">Add Card</button>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+    <div class="container bg-primary text-center my-1 p-5">
+        <h5 class="text-white">All right reserved @ 2024-2026</h5>
+    </div>
+    <div class="container p-1  bg-light  text-light text-center fixed">
+        <div class="container-fluid position-relative bg-primary p-1">
+            <h5 class="p-3">Card Item</h5>
+            <h5 class="position-absolute top-0 end-0 mx-2" id="clsBtn"><i class="bi bi-x-square"></i></h5>
+        </div>
+        <div class="container-fluid p-1  bg-light">
+            <div class="card-item p-1 ">
+                <table class="table table-light thead-white text-center card-items" id="card-items">
+                    <!-- <tr>
+                        <td class="py-3"><img
+                                src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/f/m/-original-imagtwh5rbhf7ngh.jpeg?q=70"
+                                class="img-thumbnail" width="50px" height="50px"></td>
+                        <td class="price-container">
+                            <p>product</p>
+                            <p><a id="price">50</a> <span>Rs</span></p>
+
+                            <input type="number" value="1" class="incrementBtn" id="incrementBtn">
+                        </td>
+                        <td class="py-5">
+                            <h5> <span class="total-amount">50</span><span>.Rs</span></h5>
+                        </td>
+                        <td class="py-5">
+                            <h5 class="text-danger trashbin"><i class="bi bi-trash"></i></h5>
+                        </td>
+                    </tr> -->
+
+
+
+
+                </table>
+            </div>
+
+        </div>
+
+        <p class="text-dark fw-semibold text-end mx-3 total">Total amount: Rs.<span class="">0</span></p>
+        <button class="btn btn-success my-1">Place Order</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

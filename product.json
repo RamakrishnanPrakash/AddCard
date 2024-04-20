@@ -1,0 +1,94 @@
+{
+  "Electronics": [
+
+    {
+        "id":"1",
+        "brand":"Realme",
+        "product":"realme C51",
+        "memory":" 64 GB",
+        "mrb":"10,999",
+        "price":"8,699",
+        "rating":"4.3",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/x/-original-imagt4qptrkzwmxa.jpeg?q=70"
+    },
+    
+    {
+        "id":"2",
+        "brand":"Poco",
+        "product":"POCO C65",
+        "memory":"128 GB",
+        "mrb":"10,999",
+        "price":"7,299",
+        "rating":"4.2",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/u/8/c65-mzb0g8nin-poco-original-imagw6j2kp5t5jek.jpeg?q=70"
+    },
+    
+    {
+        "id":"3",
+        "brand":"Samsung",
+        "product":"SAMSUNG Galaxy F14 5G",
+        "memory":"128 GB",
+        "mrb":"18,490",
+        "price":"10,490",
+        "rating":"4.3",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/n/k/-original-imagtyxb86ddjhzh.jpeg?q=70"
+    },
+    
+    {
+        "id":"4",
+        "brand":"Vivo",
+        "product":"vivo T2x 5G ",
+        "memory":"128 GB",
+        "mrb":"18,999",
+        "price":"12,999",
+        "rating":"4.4",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=70"
+    },
+    
+    {
+        "id":"5",
+        "brand":"Apple",
+        "product":"Apple iPhone 15 ",
+        "memory":"128 GB",
+        "mrb":"79,900",
+        "price":"65,999",
+        "rating":"4.6",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70"
+    },
+    
+    {
+        "id":"6",
+        "brand":"Infinix",
+        "product":"Infinix HOT 40i",
+        "memory":" 256 GB",
+        "mrb":"10,999",
+        "price":"9,299",
+        "rating":"4.1",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/9/x/f/-original-imagxtnehfg5pcwt.jpeg?q=70"
+    },
+    
+    {
+        "id":"7",
+        "brand":"Google",
+        "product":"Google Pixel 8 Pro",
+        "memory":"256 GB",
+        "mrb":"1,13,999",
+        "price":"1,10,999",
+        "rating":"4.8",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/f/m/-original-imagtwh5rbhf7ngh.jpeg?q=70"
+    },
+    
+    {
+        "id":"8",
+        "brand":"Oppo",
+        "product":"OPPO A78",
+        "memory":"128 GB",
+        "mrb":"22,999",
+        "price":"15,499",
+        "rating":"4.3",
+        "image":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/1/s/n/-original-imaggkzxfgweseym.jpeg?q=70"
+    }
+    
+   
+  ]
+}
